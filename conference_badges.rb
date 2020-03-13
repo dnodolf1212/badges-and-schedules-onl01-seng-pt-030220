@@ -30,11 +30,10 @@ end
 #output-->results of previous methods ARRAY?
 
 def printer(array)
-  array.each do |prints|
-  puts batch_badge_creator(name)
+  puts batch_badge_creator
 end
   array.each do |prints|
-  puts assign_rooms(name)
+  puts assign_rooms(array)
 end 
 end
 
