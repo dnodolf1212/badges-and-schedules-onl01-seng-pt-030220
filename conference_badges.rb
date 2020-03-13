@@ -30,7 +30,7 @@ end
 #output-->results of previous methods ARRAY?
 
 def printer(array)
-  
+  array.each_with_index 
 end 
 
 
