@@ -35,7 +35,7 @@ end
   array.each do |prints|
   puts assign_rooms(array)
 end 
-end
+
 
 
   
