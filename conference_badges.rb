@@ -29,10 +29,12 @@ end
 #input-->array
 #output-->results of previous methods ARRAY?
 
-def printer
+def printer(array)
   array.each_with_index
-  puts batch_badge_creator
-  puts assign_rooms
+  puts batch_badge_creator(array)
+end
+array.each_with_index
+  puts assign_rooms(array)
 end 
 
 
