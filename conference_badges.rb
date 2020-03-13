@@ -31,7 +31,7 @@ end
 
 def printer(array)
   array.each_with_index
-  puts batch_badge_creator(attendee)
+  puts batch_badge_creator(badge)
   puts assign_rooms(room)
 end 
 
